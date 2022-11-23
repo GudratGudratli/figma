@@ -321,4 +321,302 @@ nav {
 }
 .partners .btn a:hover {
   color: red;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.testimonials .text-content-header h2 {
+  font-size: 48px;
+}
+.testimonials .logos {
+  background-image: url(/assets/imgs/main/testimonials/Vector.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 60px;
+}
+.testimonials .text-content-info h4 {
+  font-size: 28px;
+}
+.testimonials .user {
+  display: flex;
+  flex-direction: row;
+}
+.testimonials .user .user-logo {
+  background-image: url(/assets/imgs/main/testimonials/Ellipse2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+.testimonials .user .user-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: start;
+  padding: 10px;
+}
+.testimonials .user .user-info h5 {
+  font-size: 16px;
+}
+.testimonials .user .user-info a {
+  font-size: 15px;
+}
+.testimonials .btn {
+  background: #2091F9;
+  border-radius: 35px;
+  padding: 10px 40px 10px 40px;
+}
+.testimonials .btn a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.testimonials .btn a:hover {
+  color: red;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #252b42;
+}
+.pricing .text-content {
+  color: #fff;
+}
+.pricing .text-content h2 {
+  font-size: 48px;
+  padding: 25px;
+}
+.pricing .text-content h4 {
+  font-size: 28px;
+  padding: 25px;
+}
+.pricing .items {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.pricing .items .item-1 {
+  background-color: #fff;
+  color: #252b42;
+  width: 330px;
+  height: 600px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+.pricing .items .item-1 .info {
+  margin-top: 40px;
+}
+.pricing .items .item-1 .info h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.pricing .items .item-1 .info h5 {
+  font-size: 16px;
+}
+.pricing .items .item-1 .price {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.pricing .items .item-1 .price .count h1 {
+  font-size: 74px;
+  font-weight: 700;
+}
+.pricing .items .item-1 .price .price-info h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.pricing .items .item-1 .price .price-info h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.pricing .items .item-1 .list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.pricing .items .item-1 .list a {
+  color: #252b42;
+  text-decoration: none;
+}
+.pricing .items .item-1 .list a:hover {
+  color: #2091F9;
+}
+.pricing .items .item-1 .btn {
+  background: #2091F9;
+  border-radius: 35px;
+  padding: 15px 70px 15px 70px;
+}
+.pricing .items .item-1 .btn a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.pricing .items .item-1 .btn a:hover {
+  color: red;
+}
+.pricing .items .item-2 {
+  background-color: #2091f9;
+  color: #fff;
+  width: 330px;
+  height: 700px;
+  border-radius: 20px;
+  border: 1px #fff solid;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+.pricing .items .item-2 .info {
+  margin-top: 80px;
+}
+.pricing .items .item-2 .info h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.pricing .items .item-2 .info h5 {
+  font-size: 16px;
+}
+.pricing .items .item-2 .price {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.pricing .items .item-2 .price .count h1 {
+  font-size: 74px;
+  font-weight: 700;
+}
+.pricing .items .item-2 .price .price-info h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.pricing .items .item-2 .price .price-info h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.pricing .items .item-2 .list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.pricing .items .item-2 .list a {
+  color: #fff;
+  text-decoration: none;
+}
+.pricing .items .item-2 .list a:hover {
+  color: #252b42;
+}
+.pricing .items .item-2 .btn {
+  background: #fff;
+  border-radius: 35px;
+  padding: 15px 70px 15px 70px;
+  margin-top: 10px;
+}
+.pricing .items .item-2 .btn a {
+  color: #2091F9;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.pricing .items .item-2 .btn a:hover {
+  color: red;
+}
+.pricing .items .item-3 {
+  background-color: #fff;
+  color: #252b42;
+  width: 330px;
+  height: 600px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+.pricing .items .item-3 .info {
+  margin-top: 40px;
+}
+.pricing .items .item-3 .info h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.pricing .items .item-3 .info h5 {
+  font-size: 16px;
+}
+.pricing .items .item-3 .price {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.pricing .items .item-3 .price .count h1 {
+  font-size: 74px;
+  font-weight: 700;
+}
+.pricing .items .item-3 .price .price-info h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.pricing .items .item-3 .price .price-info h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.pricing .items .item-3 .list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.pricing .items .item-3 .list a {
+  color: #252b42;
+  text-decoration: none;
+}
+.pricing .items .item-3 .list a:hover {
+  color: #2091F9;
+}
+.pricing .items .item-3 .btn {
+  background: #2091F9;
+  border-radius: 35px;
+  padding: 15px 70px 15px 70px;
+}
+.pricing .items .item-3 .btn a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.pricing .items .item-3 .btn a:hover {
+  color: red;
 }/*# sourceMappingURL=main.css.map */
