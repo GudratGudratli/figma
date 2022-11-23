@@ -39,7 +39,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -55,54 +55,38 @@ table {
 
 nav {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .figma-land {
   position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 1280px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  width: 80%;
+  max-height: 75px;
+  align-items: center;
   text-align: center;
   background-color: rgba(128, 128, 128, 0.342);
 }
-
 .figma-land .desktop-menu {
   float: left;
   padding: 30px 75px 30px 75px;
   word-spacing: 20px;
 }
-
 .figma-land .desktop-menu a {
   color: #fff;
   text-decoration: none;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-
 .figma-land .desktop-menu a:hover {
-  -webkit-text-decoration: underline #00eeff;
-          text-decoration: underline #00eeff;
+  -webkit-text-decoration: underline rgb(0, 238, 255);
+          text-decoration: underline rgb(0, 238, 255);
   color: red;
 }
-
 .figma-land .center-menu {
   float: center;
 }
-
 .figma-land .social-menu {
   float: right;
   padding: 32px 50px 32px 50px;
@@ -113,156 +97,93 @@ nav {
   height: 100vh;
   background-image: url(/assets/imgs/main/wellcome/wellcome.svg);
   background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-size: cover;
 }
-
 .wellcome .wellcome-bg .btn {
   background: #2091F9;
   border-radius: 35px;
   padding: 10px 40px 10px 40px;
 }
-
 .wellcome .wellcome-bg .btn a {
   color: #fff;
   text-decoration: none;
 }
-
 .wellcome .wellcome-bg .btn a:hover {
   color: red;
 }
-
 .wellcome .wellcome-bg .wellcome-inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   color: #fff;
   gap: 20px;
   max-width: 786px;
   max-height: 295px;
 }
-
 .wellcome .wellcome-bg .wellcome-inner h1 {
   font-size: 74px;
   padding: 10px;
 }
-
 .wellcome .wellcome-bg .wellcome-inner h4 {
   font-size: 28px;
   padding: 10px;
 }
 
 .features-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
 .features-1 .text-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 25px;
   width: 552px;
   height: 182px;
 }
-
 .features-1 .text-content h2 {
   font-size: 48px;
 }
-
 .features-1 .text-content h4 {
   font-size: 28px;
 }
-
 .features-1 .items {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   gap: 50px;
 }
-
 .features-1 .items .item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   gap: 25px;
   width: 220px;
   height: 257px;
 }
-
 .features-1 .items .item h3 {
   font-size: 28px;
 }
-
 .features-1 .items .item p {
   font-size: 18px;
 }
-
 .features-1 .features1-img {
   background-image: url(/assets/imgs/main/features-1/screen.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 900px;
   height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
 .features-1 .features1-img .play-button {
   background-image: url(/assets/imgs/main/features-1/play-button.svg);
   background-repeat: no-repeat;
@@ -272,35 +193,35 @@ nav {
 }
 
 .features-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   gap: 50px;
 }
-
 .features-2 .content {
   width: 400px;
 }
-
 .features-2 .content h2 {
   font-size: 48px;
 }
-
 .features-2 .content h4 {
   font-size: 28px;
 }
-
+.features-2 .content .btn {
+  background: #2091F9;
+  border-radius: 35px;
+  padding: 10px 40px 10px 40px;
+}
+.features-2 .content .btn a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.features-2 .content .btn a:hover {
+  color: red;
+}
 .features-2 .notebook {
   background-image: url(/assets/imgs/main/features-2/Frame18.svg);
   background-repeat: no-repeat;
@@ -308,4 +229,96 @@ nav {
   width: 500px;
   height: 300px;
 }
-/*# sourceMappingURL=main.css.map */
+
+.features-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+.features-3 .content {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.features-3 .content h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.features-3 .content h2 {
+  font-size: 48px;
+}
+.features-3 .content p {
+  font-size: 18px;
+}
+.features-3 .content .input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+.features-3 .content .input .btn {
+  background: #2091F9;
+  border-radius: 35px;
+  padding: 10px 40px 10px 40px;
+}
+.features-3 .content .input .btn a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.features-3 .content .input .btn a:hover {
+  color: red;
+}
+.features-3 .content .input input[type=email] {
+  width: 150px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 25px;
+}
+.features-3 .notebook {
+  background-image: url(/assets/imgs/main/features-3/undraw_newsletter_vovu.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.partners .text-content h2 {
+  font-size: 48px;
+}
+.partners .text-content h4 {
+  font-size: 28px;
+}
+.partners .logos {
+  background-image: url(/assets/imgs/main/partners/Items.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1000px;
+  height: 320px;
+}
+.partners .btn {
+  background: #2091F9;
+  border-radius: 35px;
+  padding: 10px 40px 10px 40px;
+}
+.partners .btn a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.partners .btn a:hover {
+  color: red;
+}/*# sourceMappingURL=main.css.map */

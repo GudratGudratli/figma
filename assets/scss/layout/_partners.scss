@@ -1,0 +1,37 @@
+.partners{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    .text-content{
+        h2{
+            font-size: 48px;
+        }
+        h4{
+            font-size: 28px;
+        }
+    }
+    .logos{
+        background-image: url(/assets/imgs/main/partners/Items.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1000px;
+        height: 320px;
+    }
+    .btn {
+        background: #2091F9;
+        border-radius: 35px;
+        padding: 10px 40px 10px 40px;
+
+        a{
+            color: #fff;
+            text-decoration: none;
+            transition: 0.3s;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}

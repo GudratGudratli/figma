@@ -1,0 +1,69 @@
+.features-3 {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+
+    .content {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        h3 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .input {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 5px;
+
+            .btn {
+                background: #2091F9;
+                border-radius: 35px;
+                padding: 10px 40px 10px 40px;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+
+            input[type=email] {
+                width: 150px;
+                padding: 10px;
+                background-color: #f4f4f4;
+                border-radius: 25px;
+            }
+        }
+    }
+
+    .notebook {
+        background-image: url(/assets/imgs/main/features-3/undraw_newsletter_vovu.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+}
