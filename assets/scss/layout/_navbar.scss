@@ -1,0 +1,37 @@
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.figma-land{
+    position: fixed;
+    display: flex;
+    // bunlari eyni setrde elemek lazim
+    flex-direction: row;
+    width: 1280px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.342);
+    
+    .desktop-menu{
+        float: left;
+        padding: 30px 75px 30px 75px;
+        word-spacing: 20px;
+        a{
+            color: #fff;
+            text-decoration: none;
+            transition: 0.2s;
+            &:hover{
+                text-decoration: underline rgb(0, 238, 255);
+                color: red;
+            }
+        }
+    }
+    .center-menu{
+        float: center;
+    }
+    .social-menu{
+        float: right;
+        padding: 32px 50px 32px 50px;
+    }
+}
