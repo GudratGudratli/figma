@@ -57,3 +57,11 @@
         }
     }
 }
+
+@media screen and (max-width: 768px){
+    .features-1{
+        .items{
+            flex-direction: column;
+        }
+    }
+}

@@ -297,3 +297,11 @@
         }
     }
 }
+
+@media screen and (max-width: 996px){
+    .pricing{
+        .items{
+            flex-direction: column;
+        }
+    }
+}

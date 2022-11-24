@@ -1,38 +1,84 @@
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.figma-land{
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .figma-land {
     position: fixed;
     display: flex;
-    // bunlari eyni setrde elemek lazim
+
     flex-direction: row;
     width: 80%;
     max-height: 75px;
     align-items: center;
     text-align: center;
+    justify-content: center;
     background-color: rgba(128, 128, 128, 0.342);
-    
-    .desktop-menu{
-        float: left;
-        padding: 30px 75px 30px 75px;
-        word-spacing: 20px;
-        a{
-            color: #fff;
-            text-decoration: none;
-            transition: 0.2s;
-            &:hover{
-                text-decoration: underline rgb(0, 238, 255);
-                color: red;
-            }
+
+    .desktop-menu {
+      float: left;
+      padding: 30px 75px 30px 75px;
+      word-spacing: 20px;
+      a {
+        color: #fff;
+        text-decoration: none;
+        transition: 0.2s;
+        &:hover {
+          text-decoration: underline rgb(0, 238, 255);
+          color: red;
         }
+      }
     }
-    .center-menu{
-        float: center;
+    .center-menu {
+      float: center;
     }
-    .social-menu{
-        float: right;
-        padding: 32px 50px 32px 50px;
+    .social-menu {
+      float: right;
+      padding: 32px 50px 32px 50px;
+      letter-spacing: 10px;
+      i {
+        font-size: 32px;
+        color: #fff;
+      }
     }
+
+    .hamburger-menu {
+      display: none;
+      a {
+        i {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 996px) {
+  nav {
+    .figma-land {
+      .desktop-menu {
+        display: none;
+      }
+      .social-menu {
+        letter-spacing: 5px;
+        i {
+          font-size: 28px;
+        }
+      }
+      .hamburger-menu {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    .figma-land {
+      .social-menu {
+        i {
+          display: none;
+        }
+      }
+    }
+  }
 }
